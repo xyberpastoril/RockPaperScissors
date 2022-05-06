@@ -1,6 +1,8 @@
 {
   "name": "RockPaperScissors",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic1",
   "watchPatterns": [
     "scss/**/*",
@@ -8,5 +10,8 @@
     "!www/lib/**/*",
     "!www/**/*.map"
   ],
-  "gulpStartupTasks": ["sass", "watch"]
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ]
 }
