@@ -1,7 +1,8 @@
 {
   "name": "RockPaperScissors",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "ionic1",
   "watchPatterns": [
